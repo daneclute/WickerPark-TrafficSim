@@ -9,7 +9,9 @@ from dotenv import load_dotenv
 
 
 def main():
-    data = get_data()
+    data = get_data() 
+
+    print('iahten elkn oej')
 
     if not data:
         print('Could not fetch data')
